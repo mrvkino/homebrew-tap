@@ -7,6 +7,8 @@ cask "mrvkino-custer" do
   desc "streaming radio in your menu bar"
   homepage "https://github.com/exelban/custer"
 
+  depends_on macos: ">= :mojave"
+
   app "Custer.app"
 
   uninstall launchctl: "eu.exelban.custer.LaunchAtLogin"

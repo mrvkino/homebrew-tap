@@ -39,4 +39,5 @@ TBD
 ## Reference
 
 [Formulae](https://docs.brew.sh)
+
 [Cask](https://github.com/Homebrew/homebrew-cask)
