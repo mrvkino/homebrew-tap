@@ -12,7 +12,6 @@ Or `brew tap mrvkino/tap` and then `brew install <formula>`.
 
 <!-- git@github.com:macmade/Diagnostics.git
 git@github.com:exelban/custer.git
-git@github.com:aristocratos/bpytop.git
 https://github.com/mczachurski/wallpapper
 
 look at pipx and application folder
