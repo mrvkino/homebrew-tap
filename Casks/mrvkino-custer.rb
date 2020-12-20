@@ -3,7 +3,7 @@ cask "mrvkino-custer" do
   sha256 "79f10f142658781a6b0f3e703071fd720a5321c15e56264e0a9b9110fc0cd64b"
 
   url "https://github.com/exelban/custer/releases/download/v#{version}/Custer.dmg"
-  appcast 'https://github.com/exelban/custer/releases.atom'
+  appcast "https://github.com/exelban/custer/releases.atom"
   name "Custer"
   desc "streaming radio in your menu bar"
   homepage "https://github.com/exelban/custer"
