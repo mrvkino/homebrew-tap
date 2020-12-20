@@ -4,19 +4,18 @@ cask "mrvkino-custer" do
 
   url "https://github.com/exelban/custer/releases/download/v#{version}/Custer.dmg"
   name "Custer"
-  desc "macOS streaming radio in your menu bar"
+  desc "streaming radio in your menu bar"
   homepage "https://github.com/exelban/custer"
 
   app "Custer.app"
 
   uninstall launchctl: "eu.exelban.custer.LaunchAtLogin"
-
   uninstall quit: "eu.exelban.custer"
 
   zap trash: [
     "~/Library/Application Scripts/eu.exelban.custer.LaunchAtLogin",
     "~/Library/Caches/eu.exelban.custer",
     "~/Library/Containers/eu.exelban.custer.LaunchAtLogin",
-    "~/Library/Preferences/eu.exelban.custer.plist"
+    "~/Library/Preferences/eu.exelban.custer.plist",
   ]
 end
