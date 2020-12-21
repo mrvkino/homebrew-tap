@@ -10,9 +10,7 @@ Or `brew tap mrvkino/tap` and then `brew install <formula>`.
 
 `brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
 
-<!-- git@github.com:macmade/Diagnostics.git
-git@github.com:exelban/custer.git
-https://github.com/mczachurski/wallpapper
+<!--
 
 look at pipx and application folder
 
